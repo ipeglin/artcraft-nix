@@ -404,6 +404,12 @@
           "file": "photocraft-0.14.0-linux-x86_64.AppImage",
           "bin": "photocraft",
           "hash": "sha256-YtMZWSFZ+OaQniUhURltI9m3okP8n5CV5a347LrJ8Dw="
+        },
+        "0.15.1": {
+          "tag": "v0.15.1",
+          "file": "photocraft-0.15.1-linux-x86_64.AppImage",
+          "bin": "photocraft",
+          "hash": "sha256-fZbz0NoZIdY0YgsNTNo3y/M1OnZ/kguQbOHGZnOA/+0="
         }
       }
     },
