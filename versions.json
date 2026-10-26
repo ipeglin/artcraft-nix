@@ -551,6 +551,167 @@
           "hash": "sha256-5JhIh725gBlt6iQehoMeVGE8z9Q05Ot0t0mK2iu1SeM="
         }
       }
+    },
+    "wordcraft": {
+      "title": "WordCraft",
+      "summary": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+      "repo": "storytold/wordcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "wordcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "wordcraft",
+          "hash": "sha256-vs+dy8A6myfYMT9Z2/76wYXre82HMrAK6KiaIXvq6pc="
+        },
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "wordcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "wordcraft",
+          "hash": "sha256-8laYJmEH89k4AAaZkLaVEJbHRjaQJg3AGofwmDnXEO0="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "wordcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "wordcraft",
+          "hash": "sha256-3R7dyscsQ1fg1m9F462fRsKEW129QviV0iHD7dhGLOk="
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "wordcraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "wordcraft",
+          "hash": "sha256-lHfqkt2e3yq5dL3jJZWEWyc3snskx6QGWctdzieydVE="
+        }
+      }
+    },
+    "gridcraft": {
+      "title": "GridCraft",
+      "summary": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
+      "repo": "storytold/gridcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "gridcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "gridcraft",
+          "hash": "sha256-S/btAD8HvwrfQdKdmpy+W8J0Lf5DegsXUHy5rhEtMl4="
+        },
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "gridcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "gridcraft",
+          "hash": "sha256-rhw43UaNRk90nhUU7oavsIfJ/3e9UMR+ZHzbGPFTLbE="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "gridcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "gridcraft",
+          "hash": "sha256-OPPp39gMA0+F9bOZMlIkuifYnWL0BFnaVIVgtQAoVN8="
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "gridcraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "gridcraft",
+          "hash": "sha256-+XqC0PIdM4H7sZoK4JKNZcXNxAL6pekgCDEs5Jh0XOI="
+        }
+      }
+    },
+    "deckcraft": {
+      "title": "DeckCraft",
+      "summary": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
+      "repo": "storytold/deckcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "deckcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "deckcraft",
+          "hash": "sha256-thHS7m+07MIDSxx2VA5tAt4VxuqDr50aDdTtbOthLr8="
+        },
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "deckcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "deckcraft",
+          "hash": "sha256-1C9eTTILfljWuGDzMye5S3di34AasO3XyHc1lKxhRqg="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "deckcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "deckcraft",
+          "hash": "sha256-jbjQ3RpJ67KVdy2JyHZ/l/w2dl2DQrKv3Wq34nI1Qvk="
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "deckcraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "deckcraft",
+          "hash": "sha256-Zi9iNqHAqBwyboCxJq/VXdaNwqEsM7vDAJ8G2fObMR4="
+        }
+      }
+    },
+    "soundcraft": {
+      "title": "SoundCraft",
+      "summary": "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust",
+      "repo": "storytold/soundcraft",
+      "versions": {
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "soundcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "soundcraft",
+          "hash": "sha256-WPanUQO7GW3bdj2bh68mojVUXX03RsXLbzrXrUmj4mE="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "soundcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "soundcraft",
+          "hash": "sha256-2LaOp4HYySodioRJ6pttCYioP3o6++1lbjesUpgSv6A="
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "soundcraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "soundcraft",
+          "hash": "sha256-ygCL5GG1fKFpdflPn8dY851yfUR3wyEeP1sepGvq0nI="
+        },
+        "0.6.1": {
+          "tag": "v0.6.1",
+          "file": "soundcraft-0.6.1-linux-x86_64.AppImage",
+          "bin": "soundcraft",
+          "hash": "sha256-aMZY8uctdKMnf0jfPOE+TbnG6v1/FCX2Pi3IXYZ5EgA="
+        }
+      }
+    },
+    "cadcraft": {
+      "title": "CADCraft",
+      "summary": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
+      "repo": "storytold/cadcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "cadcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "cadcraft",
+          "hash": "sha256-Dkd9wJrcXca4ACFwICgKqvZS+jF4vSsJMTS4+QMpQKg="
+        },
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "cadcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "cadcraft",
+          "hash": "sha256-tGPweKEi+eTqV8N8XkPsOa7AAkHWoJVo739XO3MnmX8="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "cadcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "cadcraft",
+          "hash": "sha256-cy0/L4WUXVC6yfu/PWTgv5dKxZPS8zRK8XJyc6KeU6o="
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "cadcraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "cadcraft",
+          "hash": "sha256-0pdWaTryscRBFd/aZ7c9BR+dZenjaFKSZ0S18xKuhcY="
+        },
+        "0.6.2": {
+          "tag": "v0.6.2",
+          "file": "cadcraft-0.6.2-linux-x86_64.AppImage",
+          "bin": "cadcraft",
+          "hash": "sha256-MtqtoRubblEucqoHHOvzyvF/dBuF8JR0m/85rTYDatE="
+        }
+      }
     }
   }
 }
