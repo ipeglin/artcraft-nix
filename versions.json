@@ -1094,15 +1094,9 @@
     },
     "craftanything": {
       "title": "Craft Anything",
-      "summary": "Explore how software works and build your own version",
-      "repo": "storytold/craft-anything",      "versions": {
-        "0.1.0": {
-          "tag": "v0.1.0",
-          "file": "craft-anything-0.1.0-linux-x86_64.AppImage",
-          "bin": "craft-anything",
-          "hash": "sha256-XtOmGd1+OIxAK4hyd7++ciHb+vXO5HB5uEltQoqe5yQ="
-        }
-      }
+      "summary": "Understand how software works and build your own version",
+      "repo": "storytold/craft-anything",
+      "versions": {}
     }
   }
 }
