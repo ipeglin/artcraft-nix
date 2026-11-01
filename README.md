@@ -20,6 +20,7 @@ working even if the upstream releases disappear.
 | GridCraft | Excel | `gridcraft` |
 | SoundCraft | Audition | `soundcraft` |
 | WordCraft | Word | `wordcraft` |
+| Craft Anything | Anything | `craftanything` |
 
 Unofficial: not affiliated with the ArtCraft authors. x86_64-linux only for now.
 
