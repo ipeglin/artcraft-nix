@@ -4,8 +4,7 @@ import re
 
 import common
 
-ASSET = re.compile(r"^(?P<bin>[a-z0-9]+)-(?P<version>\d+\.\d+\.\d+)-linux-x86_64\.AppImage$")
-
+ASSET = re.compile(r"^(?P<bin>[a-z0-9]+(?:-[a-z0-9]+)*)-(?P<version>\d+\.\d+\.\d+)-linux-x86_64\.AppImage$")
 
 def discover(repo):
     """Map version -> manifest entry for every stable x86_64 AppImage in repo.
