@@ -16,6 +16,9 @@ KNOWN_LIBS = {
     "libwayland-client", "libwayland-egl",
     "libX11", "libX11-xcb", "libxcb", "libXcursor", "libXi",
     "libxkbcommon", "libxkbcommon-x11",
+    "libva", "libva-drm",
+    # NVIDIA driver libraries, found via /run/opengl-driver/lib.
+    "libcuda", "libnvcuvid", "libnvidia-encode",
     "library",
 }
 # The last "lib" before ".so": binaries also embed distro package hints that
