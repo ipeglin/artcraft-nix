@@ -292,6 +292,12 @@
           "file": "effectcraft-0.23.0-linux-x86_64.AppImage",
           "bin": "effectcraft",
           "hash": "sha256-gWjycyfy7bBR4mhHXDdjFHmqCIk/HoiwrdcX1fgqFY8="
+        },
+        "0.23.1": {
+          "tag": "v0.23.1",
+          "file": "effectcraft-0.23.1-linux-x86_64.AppImage",
+          "bin": "effectcraft",
+          "hash": "sha256-eQVIXX6RmZoMGey6RH0N/RHBO92xMr35zKZc2LYGcfs="
         }
       }
     },
