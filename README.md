@@ -1,7 +1,7 @@
 # artcraft-nix
 
 Nix packages and a NixOS module for the [ArtCraft](https://github.com/storytold) apps,
-open-source native alternatives to the Adobe suite, built from their official
+open-source native alternatives to the Adobe suite, and MsOffice built from their official
 release AppImages. Every release is verified and mirrored, so installs keep
 working even if the upstream releases disappear.
 
@@ -14,6 +14,11 @@ working even if the upstream releases disappear.
 | FilmCraft | Premiere Pro | `filmcraft` |
 | EffectCraft | After Effects | `effectcraft` |
 | PdfCraft (formerly PrintCraft) | Acrobat | `pdfcraft` |
+| WordCraft | Word | `wordcraft` |
+| GridCraft | Excel | `gridcraft` |
+| DeckCraft | PowerPoint | `deckcraft` |
+| SoundCraft | Avid Pro Tools | `soundcraft` |
+| CADCraft | autoCAD | `cadcraft` |
 
 Unofficial: not affiliated with the ArtCraft authors. x86_64-linux only for now.
 
