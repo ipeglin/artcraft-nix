@@ -25,6 +25,7 @@
   libxcursor,
   libxi,
   libxkbcommon,
+  libva,
   # from default.nix
   app,
   version,
@@ -55,7 +56,9 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ autoPatchelfHook makeWrapper ];
   buildInputs = [ stdenv.cc.cc.lib alsa-lib ];
-  runtimeDependencies = [
+  # lib.getLib: some of these (dbus) keep their shared objects in a separate
+  # `lib` output, and the default output on the RPATH holds no library at all.
+  runtimeDependencies = map lib.getLib [
     dbus
     libGL
     vulkan-loader
@@ -65,7 +68,12 @@ stdenv.mkDerivation {
     libxcursor
     libxi
     libxkbcommon
+    libva
   ];
+  # NVIDIA's libcuda / libnvcuvid / libnvidia-encode (FilmCraft's NVDEC/NVENC)
+  # ship with the driver, not nixpkgs; NixOS exposes them here. Elsewhere the
+  # directory is absent and the app falls back to software decode/encode.
+  appendRunpaths = [ "/run/opengl-driver/lib" ];
 
   dontConfigure = true;
   dontBuild = true;
