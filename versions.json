@@ -153,6 +153,12 @@
           "file": "designcraft-0.20.1-linux-x86_64.AppImage",
           "bin": "designcraft",
           "hash": "sha256-+db9a7GkIYUCQ8DUvkQjVxOp7Fsm+L8dW6h6/Pj5FTQ="
+        },
+        "0.21.1": {
+          "tag": "v0.21.1",
+          "file": "designcraft-0.21.1-linux-x86_64.AppImage",
+          "bin": "designcraft",
+          "hash": "sha256-uwj2OcoDbaDScayh8fTJvXEUFcT34IW8G/Qtex9uDAM="
         }
       }
     },
@@ -322,6 +328,12 @@
           "file": "effectcraft-0.24.1-linux-x86_64.AppImage",
           "bin": "effectcraft",
           "hash": "sha256-n4oWz3QUfJ4qw7ZfpvW+lqPhDq2S3fCNVE9dOZCtZNw="
+        },
+        "0.25.1": {
+          "tag": "v0.25.1",
+          "file": "effectcraft-0.25.1-linux-x86_64.AppImage",
+          "bin": "effectcraft",
+          "hash": "sha256-faFPXKggJ+LLcJ3JGAbHDOQf9DKt8n0tCjeInSG3obo="
         }
       }
     },
